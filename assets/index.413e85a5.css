@@ -1,0 +1,1 @@
+*:after,*:before,*{box-sizing:border-box}header{height:10vh;text-align:center;font-size:4rem;margin-bottom:4vh}.container{display:flex;flex-direction:column;gap:5px;justify-content:center;align-items:center}button,label{margin:5px}.input{font-size:16px;font-size:max(16px,1em);font-family:inherit;padding:.25em .5em;background-color:#fff;border:2px solid #8b8a8b;border-radius:4px}
