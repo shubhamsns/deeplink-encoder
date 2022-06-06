@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div>
-      <header>Blinkit deeplink encoder</header>
+      <header>deeplink encoder</header>
       <div className="container">
         <div>
           <label>{`Base-url : `}</label>
