@@ -38,6 +38,7 @@ function App() {
           <input
             placeholder="grofers://"
             required
+            autocomplete="off"
             {...register("baseUrl", { required: true })}
           />
         </div>
@@ -48,6 +49,7 @@ function App() {
               <div key={item.id}>
                 <label>{`key : `}</label>
                 <input
+                  autocomplete="off"
                   required
                   {...register(`queryparams.${index}.key`, {
                     required: true,
@@ -56,6 +58,7 @@ function App() {
 
                 <label>value:</label>
                 <input
+                  autocomplete="off"
                   required
                   {...register(`queryparams.${index}.value`, {
                     required: true,
